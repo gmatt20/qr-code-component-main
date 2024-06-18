@@ -1,6 +1,8 @@
 body{
     text-align: center;
     background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
 }
 .bold{
     font-family: outfit;
@@ -20,7 +22,7 @@ img{
 }
 div{
     background-color: hsl(0, 0%, 100%);
-    width: 250px;
+    max-width: 250px;
     padding: 13px;
     border-radius: 10px;
     margin: auto;
